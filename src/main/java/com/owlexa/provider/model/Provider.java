@@ -38,7 +38,7 @@ public class Provider {
 		this.id = id;
 	}
 	
-	@Column(name = "type", nullable = false)
+	@Column(name = "type")
 	public String getType() {
 		return type;
 	}
@@ -46,7 +46,7 @@ public class Provider {
 		this.type = type;
 	}
 	
-	@Column(name = "name", nullable = false)
+	@Column(name = "name")
 	public String getName() {
 		return name;
 	}
@@ -54,7 +54,7 @@ public class Provider {
 		this.name = name;
 	}
 	
-	@Column(name = "address", nullable = false)
+	@Column(name = "address")
 	public String getAddress() {
 		return address;
 	}
@@ -62,7 +62,7 @@ public class Provider {
 		this.address = address;
 	}
 
-	@Column(name = "city", nullable = false)
+	@Column(name = "city")
 	public String getCity() {
 		return city;
 	}
@@ -70,19 +70,12 @@ public class Provider {
 		this.city = city;
 	}
 
-	@Column(name = "phoneNumber", nullable = false)
+	@Column(name = "phoneNumber")
 	public String getPhoneNumber() {
 		return phoneNumber;
 	}
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
-	}
-
-	@Override
-	public String toString() {
-		return "Provider [id=" + id + ", type=" + type + ", name=" + name + ", "
-			+ "address=" + address + ", " + "city=" + city+ ", " + "phoneNumber=" + phoneNumber
-				+ "]";
 	}
 	
 }

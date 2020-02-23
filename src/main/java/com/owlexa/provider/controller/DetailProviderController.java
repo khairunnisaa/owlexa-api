@@ -4,6 +4,7 @@ package com.owlexa.provider.controller;
 import com.owlexa.exception.ResourceNotFoundException;
 import com.owlexa.provider.model.DetailProvider;
 import com.owlexa.provider.repository.DetailProviderRepository;
+import com.owlexa.provider.service.ProviderService;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,6 +28,9 @@ public class DetailProviderController {
     @Autowired
     private DetailProviderRepository detailProviderRepository;
 
+    @Autowired
+    private ProviderService providerService;
+
     @GetMapping("/")
     public List<DetailProvider> getAllDetailProvider() {
         return detailProviderRepository.findAll();
@@ -43,7 +47,7 @@ public class DetailProviderController {
 
     @PostMapping("/")
     public DetailProvider createDetailProvider(@Valid @RequestBody DetailProvider provider) {
-        return detailProviderRepository.save(provider);
+        return providerService.saveNewProvider(provider);
     }
 
     @PutMapping("/{id}")
