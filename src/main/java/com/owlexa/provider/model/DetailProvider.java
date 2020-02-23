@@ -132,7 +132,7 @@ public class DetailProvider {
         this.id = id;
     }
 
-    @Column(name = "providerName", nullable = false)
+    @Column(name = "providerName")
     public String getProviderName() {
         return providerName;
     }
@@ -141,7 +141,7 @@ public class DetailProvider {
         this.providerName = providerName;
     }
 
-    @Column(name = "providerCategory", nullable = false)
+    @Column(name = "providerCategory")
     public String getProviderCategory() {
         return providerCategory;
     }
@@ -150,7 +150,7 @@ public class DetailProvider {
         this.providerCategory = providerCategory;
     }
 
-    @Column(name = "address", nullable = false)
+    @Column(name = "address")
     public String getAddress() {
         return address;
     }
@@ -159,7 +159,7 @@ public class DetailProvider {
         this.address = address;
     }
 
-    @Column(name = "city", nullable = false)
+    @Column(name = "city")
     public String getCity() {
         return city;
     }
@@ -168,7 +168,7 @@ public class DetailProvider {
         this.city = city;
     }
 
-    @Column(name = "province", nullable = false)
+    @Column(name = "province")
     public String getProvince() {
         return province;
     }
@@ -177,7 +177,7 @@ public class DetailProvider {
         this.province = province;
     }
 
-    @Column(name = "country", nullable = false)
+    @Column(name = "country")
     public String getCountry() {
         return country;
     }
@@ -186,7 +186,7 @@ public class DetailProvider {
         this.country = country;
     }
 
-    @Column(name = "postalCode", nullable = false)
+    @Column(name = "postalCode")
     public int getPostalCode() {
         return postalCode;
     }
@@ -195,7 +195,7 @@ public class DetailProvider {
         this.postalCode = postalCode;
     }
 
-    @Column(name = "bankName", nullable = false)
+    @Column(name = "bankName")
     public String getBankName() {
         return bankName;
     }
@@ -204,7 +204,7 @@ public class DetailProvider {
         this.bankName = bankName;
     }
 
-    @Column(name = "bankAccount", nullable = false)
+    @Column(name = "bankAccount")
     public String getBankAccount() {
         return bankAccount;
     }
@@ -214,7 +214,7 @@ public class DetailProvider {
         this.bankAccount = bankAccount;
     }
 
-    @Column(name = "bankAccountName", nullable = false)
+    @Column(name = "bankAccountName")
     public String getBankAccountName() {
         return bankAccountName;
     }
@@ -223,7 +223,7 @@ public class DetailProvider {
         this.bankAccountName = bankAccountName;
     }
 
-    @Column(name = "npwp", nullable = false)
+    @Column(name = "npwp")
     public String getNpwp() {
         return npwp;
     }
@@ -232,7 +232,7 @@ public class DetailProvider {
         this.npwp = npwp;
     }
 
-    @Column(name = "tdp", nullable = false)
+    @Column(name = "tdp")
     public String getTdp() {
         return tdp;
     }
@@ -241,7 +241,7 @@ public class DetailProvider {
         this.tdp = tdp;
     }
 
-    @Column(name = "suratIzinOps", nullable = false)
+    @Column(name = "suratIzinOps")
     public String getSuratIzinOps() {
         return suratIzinOps;
     }
@@ -250,7 +250,7 @@ public class DetailProvider {
         this.suratIzinOps = suratIzinOps;
     }
 
-    @Column(name = "softcopyTarif", nullable = false)
+    @Column(name = "softcopyTarif")
     public String getSoftcopyTarif() {
         return softcopyTarif;
     }
@@ -259,7 +259,7 @@ public class DetailProvider {
         this.softcopyTarif = softcopyTarif;
     }
 
-    @Column(name = "suratIzinPenetapanKelas", nullable = false)
+    @Column(name = "suratIzinPenetapanKelas")
     public String getSuratIzinPenetapanKelas() {
         return suratIzinPenetapanKelas;
     }
@@ -269,7 +269,7 @@ public class DetailProvider {
         this.suratIzinPenetapanKelas = suratIzinPenetapanKelas;
     }
 
-    @Column(name = "softCopyObat", nullable = false)
+    @Column(name = "softCopyObat")
     public String getSoftcopyObat() {
         return softcopyObat;
     }
@@ -279,7 +279,7 @@ public class DetailProvider {
         this.softcopyObat = softcopyObat;
     }
 
-    @Column(name = "companyProfile", nullable = false)
+    @Column(name = "companyProfile")
     public String getCompanyProfile() {
         return companyProfile;
     }
@@ -288,7 +288,7 @@ public class DetailProvider {
         this.companyProfile = companyProfile;
     }
 
-    @Column(name = "telephone", nullable = false)
+    @Column(name = "telephone")
     public String getTelelphone() {
         return telelphone;
     }
@@ -297,7 +297,7 @@ public class DetailProvider {
         this.telelphone = telelphone;
     }
 
-    @Column(name = "fax", nullable = false)
+    @Column(name = "fax")
     public String getFax() {
         return fax;
     }
@@ -306,7 +306,7 @@ public class DetailProvider {
         this.fax = fax;
     }
 
-    @Column(name = "namaMarketing", nullable = false)
+    @Column(name = "namaMarketing")
     public String getNamaMarketing() {
         return namaMarketing;
     }
@@ -315,7 +315,7 @@ public class DetailProvider {
         this.namaMarketing = namaMarketing;
     }
 
-    @Column(name = "telpMarketing", nullable = false)
+    @Column(name = "telpMarketing")
     public String getTelpMarketing() {
         return telpMarketing;
     }
@@ -324,7 +324,7 @@ public class DetailProvider {
         this.telpMarketing = telpMarketing;
     }
 
-    @Column(name = "emailMarketing", nullable = false)
+    @Column(name = "emailMarketing")
     public String getEmailMarketing() {
         return emailMarketing;
     }
@@ -333,7 +333,7 @@ public class DetailProvider {
         this.emailMarketing = emailMarketing;
     }
 
-    @Column(name = "namaFinance", nullable = false)
+    @Column(name = "namaFinance")
     public String getNamaFinance() {
         return namaFinance;
     }
@@ -342,7 +342,7 @@ public class DetailProvider {
         this.namaFinance = namaFinance;
     }
 
-    @Column(name = "telpFinance", nullable = false)
+    @Column(name = "telpFinance")
     public String getTelpFinance() {
         return telpFinance;
     }
@@ -351,7 +351,7 @@ public class DetailProvider {
         this.telpFinance = telpFinance;
     }
 
-    @Column(name = "emailFinance", nullable = false)
+    @Column(name = "emailFinance")
     public String getEmailFinance() {
         return emailFinance;
     }
@@ -360,7 +360,7 @@ public class DetailProvider {
         this.emailFinance = emailFinance;
     }
 
-    @Column(name = "namaIt", nullable = false)
+    @Column(name = "namaIt")
     public String getNamaIt() {
         return namaIt;
     }
@@ -369,7 +369,7 @@ public class DetailProvider {
         this.namaIt = namaIt;
     }
 
-    @Column(name = "telpIt", nullable = false)
+    @Column(name = "telpIt")
     public String getTelpIt() {
         return telpIt;
     }
@@ -378,7 +378,7 @@ public class DetailProvider {
         this.telpIt = telpIt;
     }
 
-    @Column(name = "emailIt", nullable = false)
+    @Column(name = "emailIt")
     public String getEmailIt() {
         return emailIt;
     }
@@ -387,7 +387,7 @@ public class DetailProvider {
         this.emailIt = emailIt;
     }
 
-    @Column(name = "website", nullable = false)
+    @Column(name = "website")
     public String getWebsite() {
         return website;
     }
@@ -396,7 +396,7 @@ public class DetailProvider {
         this.website = website;
     }
 
-    @Column(name = "telpCp", nullable = false)
+    @Column(name = "telpCp")
     public String getTelpCp() {
         return telpCp;
     }
@@ -405,7 +405,7 @@ public class DetailProvider {
         this.telpCp = telpCp;
     }
 
-    @Column(name = "longitude", nullable = false)
+    @Column(name = "longitude")
     public String getLongitude() {
         return longitude;
     }
@@ -415,7 +415,7 @@ public class DetailProvider {
         this.longitude = longitude;
     }
 
-    @Column(name = "latitude", nullable = false)
+    @Column(name = "latitude")
     public String getLatitude() {
         return latitude;
     }
@@ -424,7 +424,7 @@ public class DetailProvider {
         this.latitude = latitude;
     }
 
-    @Column(name = "jasaOwlexa", nullable = false)
+    @Column(name = "jasaOwlexa")
     public String getJasaOwlexa() {
         return jasaOwlexa;
     }
@@ -433,7 +433,7 @@ public class DetailProvider {
         this.jasaOwlexa = jasaOwlexa;
     }
 
-    @Column(name = "vip", nullable = false)
+    @Column(name = "vip")
     public String getVip() {
         return vip;
     }
@@ -442,7 +442,7 @@ public class DetailProvider {
         this.vip = vip;
     }
 
-    @Column(name = "kerjasamabpjs", nullable = false)
+    @Column(name = "kerjasamabpjs")
     public String getKerjasamaBpjs() {
         return kerjasamaBpjs;
     }
@@ -451,7 +451,7 @@ public class DetailProvider {
         this.kerjasamaBpjs = kerjasamaBpjs;
     }
 
-    @Column(name = "jaringanInet", nullable = false)
+    @Column(name = "jaringanInet")
     public String getJaringanInet() {
         return jaringanInet;
     }
@@ -460,7 +460,7 @@ public class DetailProvider {
         this.jaringanInet = jaringanInet;
     }
 
-    @Column(name = "diskon", nullable = false)
+    @Column(name = "diskon")
     public String getDiskon() {
         return diskon;
     }
@@ -469,7 +469,7 @@ public class DetailProvider {
         this.diskon = diskon;
     }
 
-    @Column(name = "kesepakatanHarga", nullable = false)
+    @Column(name = "kesepakatanHarga")
     public String getKesepakatanHarga() {
         return kesepakatanHarga;
     }
@@ -478,7 +478,7 @@ public class DetailProvider {
         this.kesepakatanHarga = kesepakatanHarga;
     }
 
-    @Column(name = "sisfoRs", nullable = false)
+    @Column(name = "sisfoRs")
     public String getSisfoRs() {
         return sisfoRs;
     }
@@ -487,7 +487,7 @@ public class DetailProvider {
         this.sisfoRs = sisfoRs;
     }
 
-    @Column(name = "bersediaBridging", nullable = false)
+    @Column(name = "bersediaBridging")
     public boolean isBersediaBridging() {
         return bersediaBridging;
     }
@@ -496,7 +496,7 @@ public class DetailProvider {
         this.bersediaBridging = bersediaBridging;
     }
 
-    @Column(name = "bersediaPks", nullable = false)
+    @Column(name = "bersediaPks")
     public boolean isBersediaPksProses() {
         return bersediaPksProses;
     }
@@ -505,7 +505,7 @@ public class DetailProvider {
         this.bersediaPksProses = bersediaPksProses;
     }
 
-    @Column(name = "suratKerjasamOwlexa", nullable = false)
+    @Column(name = "suratKerjasamOwlexa")
     public boolean isSuratKerjasamaOwlexa() {
         return suratKerjasamaOwlexa;
     }
