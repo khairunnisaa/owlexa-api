@@ -1,5 +1,7 @@
 package com.owlexa;
 
+import com.owlexa.provider.service.FileUploadService;
+import com.owlexa.provider.service.FileUploadServiceImpl;
 import com.owlexa.provider.service.ProviderService;
 import com.owlexa.provider.service.ProviderServiceImpl;
 import org.springframework.boot.SpringApplication;
@@ -18,5 +20,9 @@ public class OwlexaApplication {
 	@Bean
 	ProviderService providerService() {
 		return new ProviderServiceImpl();
+	}
+	@Bean
+	FileUploadService fileUploadService(){
+		return new FileUploadServiceImpl();
 	}
 }
