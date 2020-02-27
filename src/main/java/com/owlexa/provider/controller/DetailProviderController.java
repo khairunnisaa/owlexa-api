@@ -99,6 +99,7 @@ public class DetailProviderController {
 
     @PostMapping("/uploadFile")
     public UploadFileResponse uploadFile(@RequestParam("file") MultipartFile file) {
+        logger.info("yoiii", file);
         FileUpload dbFile = fileUploadService.storeFile(file);
 
         String fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath()
@@ -112,6 +113,7 @@ public class DetailProviderController {
 
     @PostMapping("/uploadMultipleFiles")
     public List<UploadFileResponse> uploadMultipleFiles(@RequestParam("files") MultipartFile[] files) {
+        logger.info("upload cuy", files);
         return Arrays.asList(files)
             .stream()
             .map(file -> uploadFile(file))
